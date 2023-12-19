@@ -1,6 +1,7 @@
 * {
     background-color: rgb(237, 232, 212);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2 {
@@ -15,15 +16,39 @@ h1 {
     font-weight: bold;
 }
 
-.links-list {
-    list-style: none;
+.nav-ul{
+    margin-left: 150px;
 }
 
-img {
+.nav-ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.page-img {
     width: 600px;
     height: auto;
 }
 
-body {
-    max-width: 600px;
+.home-img {
+    width: 300px;
+    height: 180px;
+    border-radius: 7px;
 }
+
+a {
+    text-decoration: none;
+}
+
+.link-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.page-body {
+    max-width: 600px;
+    margin: 40px;
+}
+
