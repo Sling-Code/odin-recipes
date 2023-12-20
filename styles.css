@@ -16,15 +16,10 @@ h1 {
     font-weight: bold;
 }
 
-.nav-ul{
-    margin-left: 150px;
-}
-
-.nav-ul li {
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    display: inline-block;
-    text-align: center;
-    margin: 0 30px;
 }
 
 .page-img {
@@ -45,6 +40,7 @@ a {
 .link-text {
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 .page-body {
